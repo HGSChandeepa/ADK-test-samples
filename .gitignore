@@ -1,0 +1,16 @@
+.env
+__pycache__/
+.venv/
+*.db
+
+
+1-basic-agent/greeting_agent/.env
+2-tool-agent/tool_agent/.env
+3-litellm-agent/dad_joke_agent/.env
+4-structured-outputs/email_agent/.env
+5-sessions-and-state/question_answering_agent/.env
+11-parallel-agent/system_monitor_agent/.env
+10-sequential-agent/lead_qualification_agent/.env
+9-callbacks/before_after_agent/.env
+9-callbacks/before_after_model/.env
+9-callbacks/before_after_tool/.env
