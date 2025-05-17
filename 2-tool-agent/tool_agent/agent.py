@@ -33,7 +33,7 @@ root_agent = Agent(
     You are a helpful assistant that can use the following tools:
     - google_search
     """,
-    # tools=[google_search],
-    tools=[factorial , get_current_time],  # <--- Works
+    tools=[google_search],
+    # tools=[factorial , get_current_time],  # <--- Works
     # tools=[google_search, get_current_time], # <--- Doesn't work
 )

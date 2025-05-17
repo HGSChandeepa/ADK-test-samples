@@ -1,0 +1,12 @@
+{
+  "editor.fontFamily": "Cascadia Code",
+  "editor.codeLensFontFamily": "Cascadia Code",
+  "editor.inlayHints.fontFamily": "Cascadia Code",
+  "editor.inlineSuggest.fontFamily": "Cascadia Code",
+  "debug.console.fontFamily": "Cascadia Code",
+  "scm.inputFontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Cascadia Code",
+  "chat.editor.fontFamily": "Cascadia Code",
+  "chat.editor.fontWeight": "Cascadia Code",
+  "editor.fontLigatures": false
+}

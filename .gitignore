@@ -14,3 +14,7 @@ __pycache__/
 9-callbacks/before_after_agent/.env
 9-callbacks/before_after_model/.env
 9-callbacks/before_after_tool/.env
+3-litellm-agent/dad_joke_agent/.env
+4-structured-outputs/email_agent/.env
+5-sessions-and-state/.env
+6-persistent-storage/.env
