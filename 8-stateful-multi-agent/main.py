@@ -5,12 +5,16 @@ from customer_service_agent.agent import customer_service_agent
 from dotenv import load_dotenv
 from google.adk.runners import Runner
 from google.adk.sessions import InMemorySessionService
+from google.adk.sessions import DatabaseSessionService
 from utils import add_user_query_to_history, call_agent_async
 
 load_dotenv()
 
-# ===== PART 1: Initialize In-Memory Session Service =====
-# Using in-memory storage for this example (non-persistent)
+# ===== PART 1: Initialize Database Session Service =====
+# Using the database session service
+
+# db_url = "sqlite:///./my_agent_8_data.db"
+# session_service = DatabaseSessionService(db_url=db_url)
 session_service = InMemorySessionService()
 
 

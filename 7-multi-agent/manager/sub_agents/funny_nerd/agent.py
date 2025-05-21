@@ -5,6 +5,7 @@ from google.adk.tools.tool_context import ToolContext
 def get_nerd_joke(topic: str, tool_context: ToolContext) -> dict:
     """Get a nerdy joke about a specific topic."""
     print(f"--- Tool: get_nerd_joke called for topic: {topic} ---")
+    print(tool_context)
 
     # Example jokes - in a real implementation, you might want to use an API
     jokes = {

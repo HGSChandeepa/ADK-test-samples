@@ -18,3 +18,7 @@ __pycache__/
 4-structured-outputs/email_agent/.env
 5-sessions-and-state/.env
 6-persistent-storage/.env
+7-multi-agent/.env
+8-stateful-multi-agent/.env
+11-parallel-agent/.env
+12-loop-agent/.env

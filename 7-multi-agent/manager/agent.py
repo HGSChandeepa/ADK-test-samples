@@ -26,7 +26,8 @@ root_agent = Agent(
     """,
     sub_agents=[stock_analyst, funny_nerd],
     tools=[
-        AgentTool(news_analyst),
+        # here we need to call this as a AgentTool because we are using a buildin tool (googlesearch) by adk
+        AgentTool(news_analyst), 
         get_current_time,
     ],
 )
